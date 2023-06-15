@@ -8,3 +8,20 @@ name = "site"
 
 # This page should be the root of your website. It's important.
 page = "https://auspicious-cardboard-cae.notion.site/Hi-I-m-Griffin-7da706e29f6d49f3b48c001947337263"
+
+# optionally apply notion's dark mode, remove the line below to use the default light mode
+theme = "dark"
+
+## Global Site Settings ##
+# this [site] table defines override settings for the whole site
+[site]
+  ## Custom Meta Tags ##
+  # defined as an array of tables (double square brackets)
+  # each key in the table maps to an atttribute in the tag
+  # the following adds the tag <meta name="title" content="Loconotion Test Site"/>
+  [[site.meta]]
+  name = "title"
+  content = "Griffin Bruce | Portfolio"
+  [[site.meta]]
+  name = "description"
+  content = "Portfolio site for Griffin Bruce, an editor based in New York City."
